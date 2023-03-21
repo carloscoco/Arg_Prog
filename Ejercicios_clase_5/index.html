@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_Clase_5</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    
+  
+</head>
+<body>
+    <h5>Ejercicios Clase 5</h5>
+    
+ 
+ <table border=1 align="center">
+   <th colspan="3">Calcular valores</th><th>Resultado</th>
+        <tr> 
+            <td>Ingrese el valor en dolares para convertir a pesos</td>
+            <td><input type="text" name="Dolares" id="Dolares" maxlength="10"></td>
+            <td><input type="button" name="calculaDolares" onclick="calculaValorHtml('Dl')" value="Calcular_dolares"></td>
+            <td id="resultadoDolares"></td>
+        </tr>
+        <tr> 
+            <td>Ingrese el valor en pesos para convertir a dolares</td>
+            <td><input type="text" name="Pesos" id="Pesos" maxlength="10"></td>
+            <td><input type="button" name="calculaPesos" onclick="calculaValorHtml('Ps')" value="Calcular_pesos "></td>
+            <td id="resultadoPesos"></td>
+        </tr>
+</table>       
+<br>
+<table border=1 align="center">
+    <th colspan="3">Calcular valores de temperatura</th><th>Resultado</th>
+         <tr> 
+             <td>Convertir de grados centigrados a fahrenheit</td>
+             <td><input type="text" name="Grados" id="grados" maxlength="10"></td>
+             <td><input type="button" name="Calcula_Temperatura" onclick="calculaValorTemp()" value="Calcular"></td>
+             <td id="resultadoTemperatura"></td>
+         </tr>
+</table>       
+
+<script src="./EjerciciosCl5.js"></script>
+</body>
+</html>

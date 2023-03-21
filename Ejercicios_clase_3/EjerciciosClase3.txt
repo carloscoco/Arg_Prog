@@ -1,0 +1,47 @@
+1. Generar una función que le ingrese por parámetro algún dato ya sea ingresado por el
+usuario o declarado anteriormente en su código y mostrar por consola el tipo de dato
+que es. *
+2. Dado dos números ingresados por el usuario, se pide realizar una función que
+devuelve la resta de ambos números. Mostrar el resultado por la consola.
+3. Generar una función que le ingresen por parámetro dos valores distintos en dos
+variables a y b, luego el valor ingresado en a pasarlo a b y el valor Ingresado en b,
+Pasarlo a a y mostrarlos.
+4. Generar una función que le ingrese por parámetro el valor del lado de un cuadrado
+calcular su perímetro, su superficie, e informar los mismos en consola.
+5. Generar una función que dada una temperatura en grados fahrenheit los convierta a
+grados celsius.
+6. Realizar una función que calcule el factorial de un número ingresado por el usuario (el
+número no puede ser mayor de 10, realizar la validación). Mostrar el resultado por la
+consola.
+7. Dado una cadena de caracteres ingresada por el usuario, se pide realizar un script que
+indique si ese texto es un palíndromo. Ejemplo de palíndromo: “Somos o no somos”.
+8. Dado una cadena de caracteres ingresada por el usuario, se pide realizar un script que
+lo muestre en mayúsculas y luego en minúsculas. Investigue el manejo de string en
+Javascript.
+9. Se pide que un usuario ingrese una nota numérica de un alumno. Muestra la
+calificación resultante según la nota ingresada:
+0-3: Muy deficiente
+3-5: Insuficiente
+5-6: Suficiente
+6-7: Bien
+7-9: Notable
+9-10: Sobresaliente
+10. Se pide realizar un script en el que el usuario introduce el número del mes (1 al 12) y
+devuelve si ese mes tiene 30 o 31 días.
+11. Crear un script que genere una pirámide como el ejemplo con los números del 1 al
+número que ingrese el usuario (no puede ser mayor de 10, realizar la validación):
+1
+12
+123
+1234
+12345
+123456
+……
+12. Generar una función donde ingresen dos números, el primero corresponde a la
+cantidad de bultos en stock y el segundo a la cantidad de bultos que se pueden
+colocar en una caja. Calcule cuántas cajas completas se pueden llenar con los bultos
+disponibles y cuantos bultos sueltos quedarían. Mostrar ambos resultados en consola.
+13. Se pide realizar un script para una tienda de coches: Si el coche a la venta es un Ford
+Fiesta (código "fiesta"), el descuento es de un 5%. Si el coche a la venta es un Ford
+Focus (código "focus"), el descuento es del 10%. El usuario introduce el artículo a
+través de su código y el script saca el descuento correspondiente por la consola.

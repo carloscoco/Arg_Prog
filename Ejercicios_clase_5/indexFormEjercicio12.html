@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios_Clase_5</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    
+  <form name="formVentas" method="post"></form>
+</head>
+<body>
+    <h5>Ejercicios Clase 5 - Ejercicios 12</h5>
+    
+             <p>Nombre del cliente</p>
+            <input type="text" name="nombreCliente" id="nombreCliente" maxlength="50">
+            <p>Seleccione el tipo de caja</p>
+            <select name="tipoCaja" id="tipoCaja">
+                <option value="madera">Madera</option>
+                <option value="plastico">Plastico</option>
+                <option value="carton">Carton</option>
+              </select>
+            <div>
+              <p>seleccione un / unas dimensiones para la caja</p>
+            <input type="radio" id="cajaDiminuta" name="dimCaja" value="Diminuta" />
+            <label for="cajaDiminuta">Caja diminuta</label><br>
+            <input type="radio" id="cajaMediana" name="dimCaja" value="Mediana" />
+            <label for="cajaMediana">Caja mediana</label><br>
+            <input type="radio" id="cajaGrande" name="dimCaja" value="Grande" />
+            <label for="cajaGrande">Caja grande</label><br>
+                </div>
+             <p>Comentarios</p>
+             <p><textarea id="comentario" name="comentario" rows="5" cols="33"></textarea></p>   
+             <input type="submit" name="envioForm1" onclick="checkForm()" value="Enviar datos">
+             <input type="text" name="descripcion" id="descripcion" size="60"> 
+             
+
+<script src="./EjerciciosCl5.js"></script>
+</body>
+</html>
